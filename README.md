@@ -23,8 +23,8 @@ Key results reproduced by this codebase:
 
 | Metric | Result | Interpretation |
 |------|--------|----------------|
-| **Out-of-Sample R² (XGBoost)** | **0.0527** | Positive predictive power in short-horizon implied volatility *innovations* |
-| **Out-of-Sample R² (GARCH)** | **-0.0107** | Classical volatility models fail to capture belief-driven IV dynamics |
+| **Out-of-Sample R² (XGBoost)** | **0.0527** | Positive predictive power in short-horizon implied volatility *change* forecasting |
+| **Out-of-Sample R² (GARCH)**   | **-0.0107** | Classical volatility models fail to capture belief-driven implied volatility *change* dynamics |
 | **Strategy Sharpe (Spot-Normalized)** | **-13.40** | Statistical predictability does not translate into naive economic profitability |
 
 > **Interpretation:**  
