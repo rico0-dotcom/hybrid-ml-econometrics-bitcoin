@@ -1,4 +1,4 @@
-# Hybrid ML–Econometric Framework for Bitcoin Implied Volatility Forecasting
+# Hybrid ML–Econometric Framework for Bitcoin Implied Volatility Change Forecasting
 
 **Author:** Anuj Pal  
 **Context:** Doctoral Research Proposal (Quantitative Finance / Cryptoeconomics)
