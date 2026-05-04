@@ -89,9 +89,13 @@ pipeline and documented directly in `main.py`.
 
 ---
 **Relevance to Financial Data Analysis**
+
 • Demonstrates handling of multi-source datasets
+
 • Combines structured and derived features
+
 • Implements reproducible econometric pipelines
+
 • Applicable to broader financial and institutional data analysis
 
 ## 🚀 How to Run
