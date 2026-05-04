@@ -1,12 +1,13 @@
-# Hybrid ML–Econometric Framework for Bitcoin Implied Volatility Change Forecasting
+# Hybrid ML–Econometric Framework for Financial Time-Series Analysis
 
 **Author:** Anuj Pal  
-**Context:** Doctoral Research Proposal (Quantitative Finance / Cryptoeconomics)
+**Application:** Bitcoin Implied Volatility)
 
 ---
 
 ## 📌 Project Overview
 This repository contains the full codebase for a hybrid machine learning–econometric framework designed to forecast **one-day changes in Bitcoin implied volatility (DVOL)**.
+While applied here to crypto-derivative markets, the framework is generalizable to financial and macroeconomic time-series datasets.
 
 The framework integrates:
 - **On-chain metrics:** NUPL (Net Unrealized Profit/Loss), SOPR (Spent Output Profit Ratio)
@@ -14,7 +15,7 @@ The framework integrates:
 - **Macro-financial controls:** CPI, policy rate momentum, and DXY
 - **Nonlinear modeling:** XGBoost benchmarked against an AR(1)–GARCH(1,1) baseline
 
-The primary objective is to study the distinction between **statistical predictability** and **economic tradability** in crypto-derivative markets.
+The primary objective is to study the distinction between **statistical predictability** and **economic tradability** in financial markets.
 
 ---
 
@@ -87,6 +88,11 @@ technical indicators, and interaction terms) are generated internally by the mod
 pipeline and documented directly in `main.py`.
 
 ---
+**Relevance to Financial Data Analysis**
+• Demonstrates handling of multi-source datasets
+• Combines structured and derived features
+• Implements reproducible econometric pipelines
+• Applicable to broader financial and institutional data analysis
 
 ## 🚀 How to Run
 ```bash
